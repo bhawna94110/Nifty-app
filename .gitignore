@@ -1,4 +1,10 @@
-*.pyc
-*.migrations
-.Ds_Store
 venv/
+.pytest_cache
+**_pycache_/
+db.sqlite  
+.env
+.coverage
+.vscode
+htmlcov/
+*-commands.md
+schema
